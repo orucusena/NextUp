@@ -1,0 +1,195 @@
+body{
+    margin-top: 70px;
+    background-color: whitesmoke;
+}
+
+.nav-link {
+    font-size: 20px;
+    margin-left: 10px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand {
+    display: flex;
+}
+
+.navbar-brand img {
+    width: 170px;
+    height: 60px;
+    margin-top: 5%;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px; 
+    display: block;
+}
+
+.card {
+  margin-top: 5%;
+  background: url('/img/NUBackground.png') no-repeat center center;
+  background-color: #4f548e;
+  /*display: flex;*/
+  /*align-items: stretch;*/
+}
+
+
+#card-section{
+  padding-top: 5%;
+}
+
+.card h5 {
+  color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+}
+
+.card p {
+  color: whitesmoke;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-top: 0px; 
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+#showcase{
+  padding-top: 10%;
+}
+
+#showcase img{
+  width: 75%;
+  margin-left: 60px;
+}
+
+.showcase-left img {
+  max-width: 100%; /* Ensures the image scales properly */
+  height: auto; /* Maintains image aspect ratio */
+} 
+   
+
+#tagline{
+ padding: 100px 0;
+ background: url('/img/Party1.png') no-repeat center center; /* Add your image path */
+ background-size: cover;
+ background-color:#4f548e;
+ background-size: cover;
+ text-align: center;
+ margin-top: 60px;
+ min-height: 700px;
+ display: flex;
+ justify-content: center; 
+ align-items: center; 
+}
+
+#tagline p{
+    color: whitesmoke;
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width: 1200px) {
+    #tagline p {
+      font-size: 80px; /* Slightly smaller for medium screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #tagline p {
+      font-size: 50px; /* Smaller for tablets */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #tagline p {
+      font-size: 30px; /* Smallest size for mobile phones */
+    }
+  }
+
+#sign-up{
+  background: url('/img/Party1.png') no-repeat center center ;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  align-items: center; 
+  margin-top: 5%;
+}
+
+#sign-up .row {
+  display: flex;
+  align-items: center; /* Vertically align text and form */
+  justify-content: center; /* Center the entire row */
+  width: 100%;
+}
+
+#sign-up h1,p{
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}
+
+#sign-up .form-group{
+  color: white;
+}
+
+form {
+  width: fit-content;
+}
+
+
+.thank-you-bubble {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    display: none; /* Hidden by default */
+}
+.close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+
+footer {
+  padding-bottom: 3%;
+  background-color: whitesmoke;
+  color: whitesmoke;
+  text-align: center;
+  padding: 15px 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  color: black;
+}
+
+.socials {
+  margin-top: 8px;
+}
+
+.socials a {
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.socials a:hover {
+  color: #ff4081; /* Insta color */
+}
+
